@@ -92,7 +92,7 @@ data/reports/*.json
 !data/reports/.gitkeep
 *.parquet
 *.csv
-
+*.pdf
 # Artifacts — do not push trained binaries
 artifacts/models/*.joblib
 artifacts/preprocessors/*.joblib
@@ -116,3 +116,6 @@ temp/
 dump/
 *.bson
 *.archive
+
+*.docx
+*.pdf
